@@ -7,7 +7,7 @@ goal = "learn programming"
 skills = "IT support, CNC machine operator"
 lang = "Georgian - origin, russian, english A1"
 hobby = "playng piano, woodcarwing and little gaming"
-all_this_is = True
+this_is = True
 
 
 print("Name: " + name)
@@ -18,4 +18,4 @@ print("Goal: " + goal)
 print("Skills: " + skills)
 print("Languages: " + lang)
 print("Hobby: " + hobby)
-print("This is a: " + str(all_this_is))
+print("This is: " + str(this_is))
