@@ -1,13 +1,13 @@
 #homework day 1 - Make 10 varualbe about you & print.
 name = "mamuka"
 surname = "lagvilava"
-age = 30
-height = 174.6
-goal = "learn programming"
+age = 30    #int varuable
+height = 174.6  #float varuable
+goal = "learn programming" #string varuable
 skills = "IT support, CNC machine operator"
 lang = "Georgian - origin, russian, english A1"
 hobby = "playng piano, woodcarwing and little gaming"
-true = True
+true = True #boolean varuable
 
 
 print("")
