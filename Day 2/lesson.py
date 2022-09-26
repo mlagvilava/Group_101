@@ -49,24 +49,32 @@ print(full_name[4:9]) #დაბეჭდავს მე-4 ინდექს�
 name2 = "mamuka"
 print(len(name2)) #len გამოიტანს name2 ობიექტის სიმბოლოების რაოდენობას.
 
+#შევამოწმოთ full_name ში თუ გვხვდება a ასო.
+if "a" in full_name:    #თუ ჭეშმარიტია ეს პირობა
+    print("gvxvdeba")   #მაშინ შესრულება ეს
 
-if "a" in full_name:
+if "a" not in full_name:
     print("gvxvdeba")
 
 
-print(full_name[2:])
-print(full_name[:6])
-print(full_name[::3])
+print(full_name[2:])    #დაიპრინტება მე-2 დან ყველა სიმბოლო
+print(full_name[:6])    #დასაწყისიდან მე-6 მდე.
+print(full_name[::3])   #დასაწყისიდან მიყვება და ყოველ მე-3 ს დაპრინდავს.
 
+print(full_name[-1])    #ეს დაპრინტავს ბოლო სიმბოლოს
+#full_name = "mamuka lagvilava"
+print(full_name[-1:-5:-1])#1 დან 5მდე დაპრინტავს ოღონდ უკუღმა მოყვება.
+#1)start 2)finish 3)step ამ step ით ვაკეთებთ მინუს რიცხვებით რევერსირებას, სხვა შემთხვევაში მარჯვნისკენ ითვლის.
 
-print(full_name[-1])
+print(full_name[5:1:-1]) #მე- 5 დან 1-მდე დაპრინტავს ოღონდ უკუღმა
 
-print(full_name.upper())
+print(full_name.upper()) #გაადიდებს ასოებს.
 
 full_name2 = "MaMUKA LaGVILAVA"
-print(full_name2.lower())
+print(full_name2.lower()) #დააპატარავებს ასოებს.
 full_name3 = "     1 mamuka 2    "
-print(full_name3.strip())
+print(full_name3.strip()) #ზედმეტ Space ებს მოაშორებს დასაწყისში და ბოლოში.
 
-name = "nika"
-print(name.replace("", "#"))
+print(full_name3.replace("2", "222")) # 2 იანი ჩაანაცვლა 222-ით.
+name88 = "m a m u k a"
+print(name88.replace(" ", "#"))       #Space ებს გადააკეთებს # - ად.
