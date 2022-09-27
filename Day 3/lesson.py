@@ -1,8 +1,27 @@
 #format მეთოდის არგუმენტები წარმოჩენილია სიის სახით,
-#რომლებიც შეგვიძლია სასურველ ადგილას {ამ ფრჩხილებში} გამოვიძახოთ შესაბამისი ინდექსის მეშვეობით.
+#რომლებიც შეგვიძლია სასურველ ადგილას {აქ} გამოვიძახოთ შესაბამისი ინდექსის მეშვეობით.
 
-my_text = "aa {1} bb {0} cc {2}".format(1, 2, 3)
-print(my_text)
+# my_text = "aa {1} bb {0} cc {2}".format(1, 2, 3)
+# print(my_text)
+
+
+
+# #if და else
+# if 10>5:
+#     print("a") #თუ If - True - ა შესრულდება ეს.
+# else:
+#     print("b") #თუ False - ა მაშინ შესრულდება ეს.
+
+
+
+#print - არის Output
+#input() - შეგვაქვს მონაცემები ტერმინალიდან.
+
+my_age = input("how old are you: ")
+# print(type(my_age))
+#input - ით ტერმინალიდან შეტანილი ყოველთვის არის სტრინგი.
+print("i am " + my_age + " years old")
+
 
 # g1 = input("pirveli cifri: ")
 # g2 = input("meore cifri: ")
