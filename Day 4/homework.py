@@ -6,14 +6,16 @@ char1 = 0
 char2 = 0
 
 for char in name1:
-    if char in "aeiou":
+    if char not in "aeiou":
         char1 += 1 
 
 for char in name2:
-    if char in "aeiou":
+    if char not in "aeiou":
         char2 += 1 
 
 if char1 > char2:
-    print(name1)
+    print("There are more consonants in the {}".format(name1))
+elif char1 < char2:
+    print("There are more consonants in the {}".format(name2))
 else:
-    print(name2)
+    print("Constants are equal")
