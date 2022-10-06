@@ -17,10 +17,17 @@
 #print - არის Output
 #input() - შეგვაქვს მონაცემები ტერმინალიდან.
 
-my_age = input("how old are you: ")
-# print(type(my_age))
-#input - ით ტერმინალიდან შეტანილი ყოველთვის არის სტრინგი.
-print("i am " + my_age + " years old")
+# my_age = input("how old are you: ")
+# # print(type(my_age))
+# #input - ით ტერმინალიდან შეტანილი ყოველთვის არის სტრინგი.
+# print("i am " + my_age + " years old")
+
+# age = 30
+# age += 5 #incrementation გაზრდა.
+# #age ს დაემატე 5 და გახდა 5 ით მეტი.
+
+#type casting - ტიპების გადაყვანა - int ი სტრინგში და პირიქითაც.
+
 
 
 # g1 = input("pirveli cifri: ")
@@ -45,7 +52,12 @@ print("i am " + my_age + " years old")
 # print(a / b)
 # print(a - b)
 
-# print(b % a) #რამდენი დარჩება ნაშტი გაყოის შემდეგ
+# print(b % a) #რამდენი დარჩება ნაშტი გაყოფის შემდეგ
 # print(a ** b) #ხარისხში აყვანა
 # print(a//b) #ორმაგი გაყოფა, ანუ გაყოფს და Float ს გადაიყვანს Integer ში.
 
+
+
+print(1000 / 1.6)
+print(1000 // 1.6)
+print(1.6 // 1000)
