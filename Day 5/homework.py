@@ -1,5 +1,5 @@
-name = ("mamuka lagvilava")
+name = input()
 
-for [i] in name:
+for i in name:
     if i in "aeiou":
         print(i)
