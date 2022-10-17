@@ -33,5 +33,7 @@
 #     i += 1
 
 #-----------------------------------------------------
-
+#სიის შეტრიალება.
 students = ["nika", "ana", "mamuka", "beqa", "dachi", "iva", "farna"]
+new_list = students[::-1]
+print(new_list)
