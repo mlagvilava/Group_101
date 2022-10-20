@@ -34,6 +34,16 @@
 
 #-----------------------------------------------------
 #სიის შეტრიალება.
+# students = ["nika", "ana", "mamuka", "beqa", "dachi", "iva", "farna"]
+# new_list = students[::-1]
+# print(new_list)
+
+#სიის შეტრიალება.
 students = ["nika", "ana", "mamuka", "beqa", "dachi", "iva", "farna"]
-new_list = students[::-1]
+new_list = []
+i = len(students)
+while i > 0:
+    new_list.append(students[i-1])
+    i -= 1
 print(new_list)
+print(len(students))
