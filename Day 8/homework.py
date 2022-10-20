@@ -44,22 +44,39 @@
 # vow_index(name)
 #----------------------------------
 #print name with more vowels
-def max_vowel(name1, name2):
-    char1 = 0
-    char2 = 0
-    for i in name1:
-        if i in "aeiou":
-            char1 += 1
-    for x in name2:
-        if x in "aeiou":
-            char2 += 1
-    if char1 > char2:
-        print(name1 + " has more vowels")
-    elif char1 < char2:
-        print(name2 + " has more vowels")
-    else:
-        print(name1 + " and " + name2 + " have the same number of vowels")
+# def max_vowel(name1, name2):
+#     char1 = 0
+#     char2 = 0
+#     for i in name1:
+#         if i in "aeiou":
+#             char1 += 1
+#     for x in name2:
+#         if x in "aeiou":
+#             char2 += 1
+#     if char1 > char2:
+#         print(name1 + " has more vowels")
+#     elif char1 < char2:
+#         print(name2 + " has more vowels")
+#     else:
+#         print(name1 + " and " + name2 + " have the same number of vowels")
 
-name1 = input()
-name2 = input()
-max_vowel(name1, name2)
+# name1 = input()
+# name2 = input()
+# max_vowel(name1, name2)
+#-----------------------------------
+#take numbers from input and sum only evens
+def oven_sum(num1, num2, num3):
+    sum = 0
+    if num1 % 2 > 0:
+        sum += num1
+    if num2 % 2 > 0:
+        sum += num2
+    if num3 % 2 > 0:
+        sum += num3
+    print(sum)
+
+num1 = int(input("Enter First Number"))
+num2 = int(input("Enter Second Number"))
+num3 = int(input("Enter Third Number"))
+
+oven_sum(num1, num2, num3)
