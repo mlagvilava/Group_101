@@ -75,8 +75,8 @@ def oven_sum(num1, num2, num3):
         sum += num3
     print(sum)
 
-num1 = int(input("Enter First Number"))
-num2 = int(input("Enter Second Number"))
-num3 = int(input("Enter Third Number"))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
 
 oven_sum(num1, num2, num3)
