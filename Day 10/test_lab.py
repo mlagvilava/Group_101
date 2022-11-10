@@ -14,14 +14,29 @@
 #         return year
 # print(century(1992))
 
-def digitize(n):
-    str_n = str(n) #Convert n to String
-    new_n = []     #Create Empty list
-    i = len(str_n)
-    while i > 0:
-        new_n.append(int(str_n[i-1]))
-        print(i)
-        i -= 1
-    return new_n
+# def digitize(n):
+#     str_n = str(n) #Convert n to String
+#     new_n = []     #Create Empty list
+#     i = len(str_n)
+#     while i > 0:
+#         new_n.append(int(str_n[i-1]))
+#         print(i)
+#         i -= 1
+#     return new_n
 
-print(digitize(59603))
+# print(digitize(59603))
+
+def minimum(arr):
+    min = 0
+    for i in arr:
+        if min >= i:
+            min = i
+    return min
+
+def maximum(arr):
+    max = 0
+    for i in arr:
+        if max <= i:
+            max = i
+    return max
+
