@@ -29,7 +29,7 @@ def zipp (a, b, c):
         d.append(result)
     d.append((get_max(a, b, c)[1])[(get_max(a, b, c))[0]:]) # აქ ვიძახებ პირველ ფუნქციას
     return d
-#ფუნქციის დასასრული
+#მე-2 ფუნქციის დასასრული
 
 #test case
 a = ["a", "b", "c", "d"]
