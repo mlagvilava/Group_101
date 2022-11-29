@@ -33,7 +33,7 @@ def zipp (a, b, c):
 
 #test case
 a = ["a", "b", "c", "d"]
-b = [1, 2, 3, 4]
+b = [ 1,   2,   3,   4 ]
 c = ["z", "x", "y", "w", "h", "q", "y"]
 
 print(zipp(a, b, c))
