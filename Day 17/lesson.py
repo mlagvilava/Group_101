@@ -43,9 +43,12 @@
 
 #"The greatest victory is that which requires no battle" --> "battle no requires which that is victory greatest The"
 def reverse_words(s):
-    temp_arr = []
-    temp_arr = s.split()
-    return s
+    s_arr = []
+    s_arr.append(s.split())
+    new_s = ""
+    for word in s_arr[0][::-1]:
+        new_s += word + " "
+    return new_s
 
 s = "The greatest victory is that which requires no battle"
 print(reverse_words(s))
